@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11392" started-at="2019-07-30T12:00:32Z" finished-at="2019-07-30T12:00:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11392" started-at="2019-07-30T12:00:32Z" finished-at="2019-07-30T12:00:43Z">
+      <class name="endtoEnd.PlaceOrder">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:endtoEnd.PlaceOrder@4b9e13df]" name="beforeClass" is-config="true" duration-ms="714" started-at="2019-07-30T17:30:32Z" finished-at="2019-07-30T17:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="placeOrder()[pri:0, instance:endtoEnd.PlaceOrder@4b9e13df]" name="placeOrder" duration-ms="5466" started-at="2019-07-30T17:30:33Z" finished-at="2019-07-30T17:30:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method status="PASS" signature="getOrder()[pri:1, instance:endtoEnd.PlaceOrder@4b9e13df]" name="getOrder" duration-ms="1721" started-at="2019-07-30T17:30:38Z" finished-at="2019-07-30T17:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrder -->
+        <test-method status="PASS" signature="deleteOrder()[pri:2, instance:endtoEnd.PlaceOrder@4b9e13df]" name="deleteOrder" duration-ms="1841" started-at="2019-07-30T17:30:40Z" finished-at="2019-07-30T17:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrder -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:endtoEnd.PlaceOrder@4b9e13df]" name="afterClass" is-config="true" duration-ms="1599" started-at="2019-07-30T17:30:42Z" finished-at="2019-07-30T17:30:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- endtoEnd.PlaceOrder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
